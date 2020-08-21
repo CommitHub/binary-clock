@@ -37,155 +37,176 @@
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-red-400': bitsValues.h[0] == 1 }"
-            >8</span
           >
+            8
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-red-400': bitsValues.h[1] == 1 }"
-            >4</span
           >
+            4
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-red-400': bitsValues.h[2] == 1 }"
-            >2</span
           >
+            2
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-red-400': bitsValues.h[3] == 1 }"
-            >1</span
           >
+            1
+          </span>
           <span
             class="text-red-400 w-8 font-bold text-center text-5xl leading-tight"
-            >{{ timeValues.h }}</span
           >
-          <span class="text-red-400 w-8 text-center text-xs leading-tight">{{
-            bitsValues.h
-          }}</span>
+            {{ timeValues.h }}
+          </span>
+          <span class="text-red-400 w-8 text-center text-xs leading-tight">
+            {{ bitsValues.h }}
+          </span>
         </div>
-        <!-- END Bits Hour -->
         <div class="w-3 mb-5">
           <span
             class="text-gray-300 font-bold text-center text-5xl leading-tight"
-            >:</span
           >
+            :
+          </span>
         </div>
         <!-- Bits Minutes -->
         <div class="flex flex-col items-center mx-3">
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-500': bitsValues.M[1] == 1 }"
-            >4</span
           >
+            4
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-500': bitsValues.M[2] == 1 }"
-            >2</span
           >
+            2
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-500': bitsValues.M[3] == 1 }"
-            >1</span
           >
+            1
+          </span>
           <span
             class="text-teal-500 w-8 font-bold text-center text-5xl leading-tight"
-            >{{ timeValues.M }}</span
           >
-          <span class="text-teal-500 w-8 text-center text-xs leading-tight">{{
-            bitsValues.M
-          }}</span>
+            {{ timeValues.M }}
+          </span>
+          <span class="text-teal-500 w-8 text-center text-xs leading-tight">
+            {{ bitsValues.M }}
+          </span>
         </div>
         <div class="flex flex-col items-center mx-3">
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-400': bitsValues.m[0] == 1 }"
-            >8</span
           >
+            8
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-400': bitsValues.m[1] == 1 }"
-            >4</span
           >
+            4
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-400': bitsValues.m[2] == 1 }"
-            >2</span
           >
+            2
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-teal-400': bitsValues.m[3] == 1 }"
-            >1</span
           >
+            1
+          </span>
           <span
             class="text-teal-400 w-8 font-bold text-center text-5xl leading-tight"
-            >{{ timeValues.m }}</span
           >
-          <span class="text-teal-400 w-8 text-center text-xs leading-tight">{{
-            bitsValues.m
-          }}</span>
+            {{ timeValues.m }}
+          </span>
+          <span class="text-teal-400 w-8 text-center text-xs leading-tight">
+            {{ bitsValues.m }}
+          </span>
         </div>
-        <!-- END Bits Minutes -->
         <div class="w-3 mb-5">
           <span
             class="text-gray-300 font-bold text-center text-5xl leading-tight"
-            >:</span
           >
+            :
+          </span>
         </div>
         <!-- Bits Seconds -->
         <div class="flex flex-col items-center mx-3">
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-500': bitsValues.S[1] == 1 }"
-            >4</span
           >
+            4
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-500': bitsValues.S[2] == 1 }"
-            >2</span
           >
+            2
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-500': bitsValues.S[3] == 1 }"
-            >1</span
           >
+            1
+          </span>
           <span
             class="text-blue-500 w-8 font-bold text-center text-5xl leading-tight"
-            >{{ timeValues.S }}</span
           >
-          <span class="text-blue-500 w-8 text-center text-xs leading-tight">{{
-            bitsValues.S
-          }}</span>
+            {{ timeValues.S }}
+          </span>
+          <span class="text-blue-500 w-8 text-center text-xs leading-tight">
+            {{ bitsValues.S }}
+          </span>
         </div>
         <div class="flex flex-col items-center ml-3">
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-400': bitsValues.s[0] == 1 }"
-            >8</span
           >
+            8
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-400': bitsValues.s[1] == 1 }"
-            >4</span
           >
+            4
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-400': bitsValues.s[2] == 1 }"
-            >2</span
           >
+            2
+          </span>
           <span
             class="bit bg-gray-400"
             :class="{ 'bg-blue-400': bitsValues.s[3] == 1 }"
           >
-            1</span
-          >
+            1
+          </span>
           <span
             class="text-blue-400 w-8 font-bold text-center text-5xl leading-tight"
-            >{{ timeValues.s }}</span
           >
-          <span class="text-blue-400 w-8 text-center text-xs leading-tight">{{
-            bitsValues.s
-          }}</span>
+            {{ timeValues.s }}
+          </span>
+          <span class="text-blue-400 w-8 text-center text-xs leading-tight">
+            {{ bitsValues.s }}
+          </span>
         </div>
-        <!-- END Bits Seconds -->
       </div>
     </div>
     <div class="mx-auto">
